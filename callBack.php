@@ -7,7 +7,7 @@ $messeng ="<h1>Данные Пользователя</h1>
 <p>Телефон пользователя:" . $_POST["name"] . "</p>
 
 ";
-mail('anast.nosal@gmail.com',"Form Test site",$messeng,$mailheaders);
+mail('Dogdog.info@mail.ru',"Form Test site",$messeng,$mailheaders);
 header('Location: index.html');
 exit;
 ?>

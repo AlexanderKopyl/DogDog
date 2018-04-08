@@ -9,7 +9,7 @@ $messeng ="<h1>Данные Пользователя</h1>
 <p>Выбор пользователя:". $_POST["select"] . "</p>
 
 ";
-mail('anast.nosal@gmail.com',"Form Test site",$messeng,$mailheaders);
+mail('Dogdog.info@mail.ru',"Form Test site",$messeng,$mailheaders);
 header('Location: index.html');
 exit;
 ?>

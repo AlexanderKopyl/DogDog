@@ -209,28 +209,47 @@ a {
   border-radius: 13px; }
 
 /* line 144, ../sass/main.sass */
+header .telephone {
+  color: black; }
+  /* line 146, ../sass/main.sass */
+  header .telephone:hover {
+    text-decoration: none; }
+/* line 148, ../sass/main.sass */
+header .whatsapp {
+  background-color: green;
+  color: white;
+  border-radius: 24px;
+  width: 40px !important;
+  height: 40px;
+  padding: 7px; }
+/* line 155, ../sass/main.sass */
+header .fa-telegram {
+  width: 40px !important;
+  height: 40px;
+  color: #2E80C5; }
+/* line 159, ../sass/main.sass */
 header .colorFullText {
   color: #E7842A;
   font-family: "ArialBold"; }
-/* line 147, ../sass/main.sass */
+/* line 162, ../sass/main.sass */
 header .fontClass {
   font-family: "ArialBold"; }
-/* line 149, ../sass/main.sass */
+/* line 164, ../sass/main.sass */
 header .box {
   background: url("../img/background.png") right no-repeat, url("../img/background2.png") left repeat-y;
   background-size: cover;
   color: white; }
-  /* line 153, ../sass/main.sass */
+  /* line 168, ../sass/main.sass */
   header .box h1 {
     font-weight: bold;
     font-family: "ArialBold";
     font-size: 41px; }
-  /* line 158, ../sass/main.sass */
+  /* line 173, ../sass/main.sass */
   header .box p {
     font-weight: bold;
     font-family: "ArialBold";
     font-size: 23px; }
-  /* line 162, ../sass/main.sass */
+  /* line 177, ../sass/main.sass */
   header .box .buttonModal {
     font-family: "ArialBold";
     display: -webkit-box;
@@ -251,21 +270,21 @@ header .box {
     border-radius: 40px;
     text-transform: uppercase;
     margin-bottom: 140px; }
-    /* line 176, ../sass/main.sass */
+    /* line 191, ../sass/main.sass */
     header .box .buttonModal:hover {
       color: white;
       text-decoration: none; }
-/* line 180, ../sass/main.sass */
+/* line 195, ../sass/main.sass */
 header h1 {
   font-family: "ArialBold";
   font-weight: bold;
   font-size: 25px; }
-/* line 184, ../sass/main.sass */
+/* line 199, ../sass/main.sass */
 header span {
   font-family: "ArialBold";
   font-weight: bold;
   font-size: 25px; }
-/* line 188, ../sass/main.sass */
+/* line 203, ../sass/main.sass */
 header .headerButton {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,7 +302,7 @@ header .headerButton {
           justify-content: center;
   text-decoration: none; }
 
-/* line 200, ../sass/main.sass */
+/* line 215, ../sass/main.sass */
 main #white {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -291,7 +310,7 @@ main #white {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end; }
-/* line 203, ../sass/main.sass */
+/* line 218, ../sass/main.sass */
 main #blue {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -299,11 +318,11 @@ main #blue {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-/* line 206, ../sass/main.sass */
+/* line 221, ../sass/main.sass */
 main .classForP {
   font-family: "ArialBold";
   font-size: 22px; }
-/* line 209, ../sass/main.sass */
+/* line 224, ../sass/main.sass */
 main .buttonModal {
   font-family: "ArialBold";
   display: -webkit-box;
@@ -321,29 +340,29 @@ main .buttonModal {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 6px; }
-  /* line 220, ../sass/main.sass */
+  /* line 235, ../sass/main.sass */
   main .buttonModal:hover {
     color: white;
     text-decoration: none; }
 
-/* line 225, ../sass/main.sass */
+/* line 240, ../sass/main.sass */
 footer .number {
   font-size: 50px;
   margin-right: 5px; }
-/* line 230, ../sass/main.sass */
+/* line 245, ../sass/main.sass */
 footer form .form-group input[placeholder] {
   font-size: 20px; }
-/* line 232, ../sass/main.sass */
+/* line 247, ../sass/main.sass */
 footer form .form-group input {
   padding: 1% 7%;
   text-align: center; }
-  /* line 235, ../sass/main.sass */
+  /* line 250, ../sass/main.sass */
   footer form .form-group input:focus {
     border-color: #FBAD18;
     -webkit-box-shadow: none;
     box-shadow: none;
     outline-color: transparent; }
-/* line 240, ../sass/main.sass */
+/* line 255, ../sass/main.sass */
 footer form .form-group select {
   padding: 0 20px;
   font-size: 20px;
@@ -352,24 +371,24 @@ footer form .form-group select {
   border: 3px solid #FBAD18;
   width: 300px;
   border-radius: 13px; }
-  /* line 248, ../sass/main.sass */
+  /* line 263, ../sass/main.sass */
   footer form .form-group select:focus {
     border-color: #FBAD18;
     -webkit-box-shadow: none;
             box-shadow: none;
     outline-color: transparent; }
-/* line 252, ../sass/main.sass */
+/* line 267, ../sass/main.sass */
 footer #dog {
   margin-top: 30px; }
-/* line 254, ../sass/main.sass */
+/* line 269, ../sass/main.sass */
 footer p {
   font-size: 23px;
   font-family: Arial; }
-/* line 257, ../sass/main.sass */
+/* line 272, ../sass/main.sass */
 footer span {
   font-size: 30px;
   font-family: Arial; }
-/* line 260, ../sass/main.sass */
+/* line 275, ../sass/main.sass */
 footer form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -381,7 +400,7 @@ footer form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-/* line 265, ../sass/main.sass */
+/* line 280, ../sass/main.sass */
 footer .form-group input {
   width: 300px;
   height: -webkit-fit-content;
@@ -390,16 +409,16 @@ footer .form-group input {
   padding: 4px;
   border: 3px solid #FBAD18;
   border-radius: 13px; }
-/* line 271, ../sass/main.sass */
+/* line 286, ../sass/main.sass */
 footer hr {
   height: 10px;
   background-color: #FED934; }
-/* line 275, ../sass/main.sass */
+/* line 290, ../sass/main.sass */
 footer .downBlock span {
   font-family: Arial;
   font-weight: bold;
   font-size: 25px; }
-/* line 279, ../sass/main.sass */
+/* line 294, ../sass/main.sass */
 footer button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -417,16 +436,16 @@ footer button {
           justify-content: center;
   border-radius: 13px;
   border: none; }
-  /* line 290, ../sass/main.sass */
+  /* line 305, ../sass/main.sass */
   footer button:hover {
     color: white;
     text-decoration: none; }
-/* line 293, ../sass/main.sass */
+/* line 308, ../sass/main.sass */
 footer b {
   font-size: 50px;
   font-weight: bold;
   position: relative; }
-/* line 297, ../sass/main.sass */
+/* line 312, ../sass/main.sass */
 footer svg {
   width: 100%;
   color: red;
