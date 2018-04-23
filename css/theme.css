@@ -4069,12 +4069,11 @@ button.close {
   .carousel-indicators li {
     position: relative;
     flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    background-color: rgba(255, 255, 255, 0.5); }
+    border: 5px solid #000;
+    border-radius: 50px;}
     .carousel-indicators li::before {
       position: absolute;
       top: -10px;
@@ -4092,7 +4091,7 @@ button.close {
       height: 10px;
       content: ""; }
   .carousel-indicators .active {
-    background-color: #fff; }
+    border-color: #FAAD1B }
 
 .carousel-caption {
   position: absolute;

@@ -1,0 +1,450 @@
+body {
+    overflow-x: hidden
+}
+
+a {
+    outline-color: transparent
+}
+
+a:hover {
+    cursor: pointer
+}
+
+#myModal select {
+    padding: 0 20px;
+    font-size: 19px
+}
+
+#myModal .modal-content {
+    border: 3px solid #FED417
+}
+
+#myModal .modal-content .form-group label {
+    font-size: 23px
+}
+
+#myModal .modal-content .form-group input[placeholder] {
+    font-size: 20px
+}
+
+#myModal .modal-content .form-group input {
+    padding: 1% 7%;
+    text-align: center
+}
+
+#myModal .modal-content .form-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 3px solid #FBAD18;
+    width: 300px;
+    border-radius: 13px
+}
+
+#myModal .modal-content .form-group select:focus {
+    border-color: #FBAD18;
+    box-shadow: none;
+    outline-color: transparent
+}
+
+#myModal form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#myModal form button {
+    display: flex;
+    width: 300px;
+    background-color: #FAAD1B;
+    height: auto;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    border: none
+}
+
+#myModal .form-group input {
+    width: 300px;
+    height: fit-content;
+    padding: 4px;
+    border: 3px solid #FBAD18;
+    border-radius: 13px
+}
+
+#myModal .form-group input[placeholder] {
+    font-size: 20px
+}
+
+#myModalCallBack .modal-content {
+    border: 3px solid #FED417
+}
+
+#myModalCallBack form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#myModalCallBack form button {
+    display: flex;
+    width: 300px;
+    background-color: #FAAD1B;
+    height: auto;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    border: none
+}
+
+#myModalCallBack .form-group label {
+    font-size: 23px
+}
+
+#myModalCallBack .form-group input[placeholder] {
+    font-size: 20px
+}
+
+#myModalCallBack .form-group input {
+    padding: 1% 7%;
+    text-align: center
+}
+
+#myModalCallBack .form-group input {
+    width: 300px;
+    height: fit-content;
+    padding: 4px;
+    border: 3px solid #FBAD18;
+    border-radius: 13px
+}
+
+#ModalGroup .modal-dialog {
+    min-width: 320px;
+    margin: auto
+}
+
+#ModalGroup .modal-content {
+    border: 3px solid #FED417
+}
+
+#ModalGroup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#ModalGroup form label {
+    font-size: 23px
+}
+
+#ModalGroup form input[placeholder] {
+    font-size: 20px
+}
+
+#ModalGroup form input {
+    padding: 1% 7%;
+    text-align: center
+}
+
+#ModalGroup form input:focus {
+    border-color: #FBAD18;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline-color: transparent
+}
+
+#ModalGroup form select {
+    padding: 0 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 3px solid #FBAD18;
+    width: 300px;
+    border-radius: 13px
+}
+
+#ModalGroup form select:focus {
+    border-color: #FBAD18;
+    box-shadow: none;
+    outline-color: transparent
+}
+
+#ModalGroup form button {
+    display: flex;
+    width: 300px;
+    background-color: #FAAD1B;
+    height: auto;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    border: none
+}
+
+#ModalGroup .form-group input {
+    width: 300px;
+    height: fit-content;
+    padding: 4px;
+    border: 3px solid #FBAD18;
+    border-radius: 13px
+}
+
+header #hide-header a {
+    font-family: "ArialBold";
+    display: flex;
+    width: 240px;
+    background-color: #FAAD1B;
+    border: 2px solid white;
+    height: 46px;
+    font-size: 23px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-bottom: 140px
+}
+
+header #hide-header a:hover {
+    color: white;
+    text-decoration: none
+}
+
+header .telephone {
+    color: white
+}
+
+header .telephone:hover {
+    text-decoration: none
+}
+
+header .whatsapp {
+    background-color: green;
+    color: white;
+    border-radius: 24px;
+    width: 40px !important;
+    height: 40px;
+    padding: 7px
+}
+
+header .fa-telegram {
+    width: 40px !important;
+    height: 40px;
+    color: #2E80C5
+}
+
+header .colorFullText {
+    color: #E7842A;
+    font-family: "ArialBold"
+}
+
+header .fontClass {
+    font-family: "ArialBold"
+}
+
+header .box {
+    background: url("../img/background.png") right no-repeat, url("../img/background2.png") left repeat-y;
+    background-size: cover;
+    color: white
+}
+
+header .box h1 {
+    font-weight: bold;
+    font-family: "ArialBold";
+    font-size: 41px
+}
+
+header .box p {
+    font-weight: bold;
+    font-family: "ArialBold";
+    font-size: 23px
+}
+
+header .box .buttonModal {
+    font-family: "ArialBold";
+    display: flex;
+    width: 240px;
+    background-color: #FAAD1B;
+    border: 2px solid white;
+    height: 46px;
+    font-size: 23px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin-bottom: 140px
+}
+
+header .box .buttonModal:hover {
+    color: white;
+    text-decoration: none
+}
+
+header h1 {
+    font-family: "ArialBold";
+    font-weight: bold;
+    font-size: 25px
+}
+
+header span {
+    font-family: "ArialBold";
+    font-weight: bold;
+    font-size: 25px
+}
+
+header .headerButton {
+    display: flex;
+    background: #FAAD1B;
+    width: 240px;
+    height: fit-content;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    text-decoration: none
+}
+
+main #white {
+    display: flex;
+    justify-content: flex-end
+}
+
+main #blue {
+    display: flex;
+    align-items: center
+}
+
+main .classForP {
+    font-family: "ArialBold";
+    font-size: 22px
+}
+
+main .buttonModal {
+    font-family: "ArialBold";
+    display: flex;
+    width: 300px;
+    background-color: #FAAD1B;
+    height: 40px;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px
+}
+
+main .buttonModal:hover {
+    color: white;
+    text-decoration: none
+}
+
+footer .number {
+    font-size: 50px;
+    margin-right: 5px
+}
+
+footer form .form-group input[placeholder] {
+    font-size: 20px
+}
+
+footer form .form-group input {
+    padding: 1% 7%;
+    text-align: center
+}
+
+footer form .form-group input:focus {
+    border-color: #FBAD18;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline-color: transparent
+}
+
+footer form .form-group select {
+    padding: 0 20px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 3px solid #FBAD18;
+    width: 300px;
+    border-radius: 13px
+}
+
+footer form .form-group select:focus {
+    border-color: #FBAD18;
+    box-shadow: none;
+    outline-color: transparent
+}
+
+footer #dog {
+    margin-top: 30px
+}
+
+footer p {
+    font-size: 23px;
+    font-family: Arial
+}
+
+footer span {
+    font-size: 30px;
+    font-family: Arial
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+footer .form-group input {
+    width: 300px;
+    height: fit-content;
+    padding: 4px;
+    border: 3px solid #FBAD18;
+    border-radius: 13px
+}
+
+footer hr {
+    height: 10px;
+    background-color: #FED934
+}
+
+footer .downBlock span {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px
+}
+
+footer button {
+    display: flex;
+    width: 300px;
+    background-color: #FAAD1B;
+    height: auto;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    border: none
+}
+
+footer button:hover {
+    color: white;
+    text-decoration: none
+}
+
+footer b {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative
+}
+
+footer svg {
+    width: 100%;
+    color: red;
+    position: absolute;
+    height: 100%;
+    left: 0
+}

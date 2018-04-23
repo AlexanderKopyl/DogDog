@@ -2,427 +2,562 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/fonts.css" type="text/css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="css/theme.css" type="text/css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/media.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          type="text/css">
+    <link rel="stylesheet" href="css/theme.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <div id="ModalGroup">
-  <div id="myModal" class="modal fade">
-    <div class="modal-dialog my-5">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form class="mt-3 text-center" action="byNow.php" method="post">
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="InputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="InputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="InputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control " name="tel" id="InputPhone" placeholder="Введите номер телефон">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlSelect1" class="font-weight-bold mb-0">Выберите цвет</label>
-              <select class="form-control" name="select" id="exampleFormControlSelect1">
-                <option  hidden>Нажмите сюда для выбора</option>
-                <option value="Оранжевый">Оранжевый</option>
-                <option value="Зеленый">Зеленый</option>
-                <option value="Красный" >Красный</option>
-                <option value="Белый">Белый</option>
-                <option value="Светло синий">Светло синий</option>
-              </select>
-            </div>
-            <button type="submit" class="buttonModal text-white">Отправить</button>
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog my-5">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="mt-3 text-center" action="byNow.php" method="post">
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="InputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="InputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="InputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="InputPhone"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1" class="font-weight-bold mb-0">Выберите цвет</label>
+                            <select class="form-control" name="select" id="exampleFormControlSelect1">
+                                <option hidden>Нажмите сюда для выбора</option>
+                                <option value="Оранжевый">Оранжевый</option>
+                                <option value="Зеленый">Зеленый</option>
+                                <option value="Красный">Красный</option>
+                                <option value="Белый">Белый</option>
+                                <option value="Светло синий">Светло синий</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="buttonModal text-white">Отправить</button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-      </div>
     </div>
-  </div>
-  <div id="myModalCallBack" class="modal fade">
-    <div class="modal-dialog my-5">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form class="mt-3 text-center" action="callBack.php" method="post">
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="CallBackInputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="CallBackInputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="CallBackInputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control " name="tel" id="CallBackInputPhone" placeholder="Введите номер телефон">
-            </div>
-            <button type="submit" class="buttonModal text-white">Отправить</button>
+    <div id="myModalCallBack" class="modal fade">
+        <div class="modal-dialog my-5">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="mt-3 text-center" action="callBack.php" method="post">
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="CallBackInputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="CallBackInputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="CallBackInputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="CallBackInputPhone"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <button type="submit" class="buttonModal text-white">Отправить</button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-      </div>
     </div>
-  </div>
-  <div id="myModalyellow" class="modal fade">
-    <div class="modal-dialog my-5">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form class="mt-3 text-center" action="picPhp.php" method="post">
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="yellowInputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="yellowInputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="yellowInputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control " name="tel" id="yellowInputPhone" placeholder="Введите номер телефон">
-            </div>
-            <div class="form-group d-none">
-              <input type="text" class="form-control " name="checkBox"   value="Желтый" placeholder="Введите номер телефон">
-            </div>
-            <button type="submit" class="buttonModal text-white">Отправить</button>
+    <div id="myModalyellow" class="modal fade">
+        <div class="modal-dialog my-5">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="mt-3 text-center" action="picPhp.php" method="post">
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="yellowInputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="yellowInputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="yellowInputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="yellowInputPhone"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <div class="form-group d-none">
+                            <input type="text" class="form-control " name="checkBox" value="Желтый"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <button type="submit" class="buttonModal text-white">Отправить</button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-      </div>
     </div>
-  </div>
-  <div id="myModalred" class="modal fade">
-    <div class="modal-dialog my-5">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form class="mt-3 text-center" action="picPhp.php" method="post">
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="redInputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="redInputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="redInputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control " name="tel" id="redInputPhone" placeholder="Введите номер телефон">
-            </div>
-            <div class="form-group d-none">
-              <input type="text" class="form-control " name="checkBox"   value="Красный" >
-            </div>
-            <button type="submit" class="buttonModal text-white">Отправить</button>
+    <div id="myModalred" class="modal fade">
+        <div class="modal-dialog my-5">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="mt-3 text-center" action="picPhp.php" method="post">
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="redInputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="redInputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="redInputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="redInputPhone"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <div class="form-group d-none">
+                            <input type="text" class="form-control " name="checkBox" value="Красный">
+                        </div>
+                        <button type="submit" class="buttonModal text-white">Отправить</button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-      </div>
     </div>
-  </div>
-  <div id="myModalwhite" class="modal fade">
-    <div class="modal-dialog my-5">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form class="mt-3 text-center" action="picPhp.php" method="post">
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="whiteInputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="whiteInputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="whiteInputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control " name="tel" id="whiteInputPhone" placeholder="Введите номер телефон">
-            </div>
-            <div class="form-group d-none">
-              <input type="text" class="form-control " name="checkBox"  value="Белый" placeholder="Введите номер телефон">
-            </div>
-            <button type="submit" class="buttonModal text-white">Отправить</button>
+    <div id="myModalwhite" class="modal fade">
+        <div class="modal-dialog my-5">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="mt-3 text-center" action="picPhp.php" method="post">
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="whiteInputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="whiteInputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="whiteInputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="whiteInputPhone"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <div class="form-group d-none">
+                            <input type="text" class="form-control " name="checkBox" value="Белый"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <button type="submit" class="buttonModal text-white">Отправить</button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-      </div>
     </div>
-  </div>
-  <div id="myModalblue" class="modal fade">
-    <div class="modal-dialog my-5">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form class="mt-3 text-center" action="picPhp.php" method="post">
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="blueInputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="blueInputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="blueInputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control "  name="tel" id="blueInputPhone" placeholder="Введите номер телефон">
-            </div>
-            <div class="form-group d-none">
-              <input type="text" class="form-control " name="checkBox"  value="Синий" placeholder="Введите номер телефон">
-            </div>
-            <button type="submit" class="buttonModal text-white">Отправить</button>
+    <div id="myModalblue" class="modal fade">
+        <div class="modal-dialog my-5">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="mt-3 text-center" action="picPhp.php" method="post">
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="blueInputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="blueInputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="blueInputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="blueInputPhone"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <div class="form-group d-none">
+                            <input type="text" class="form-control " name="checkBox" value="Синий"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <button type="submit" class="buttonModal text-white">Отправить</button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-      </div>
     </div>
-  </div>
-  <div id="myModalgreen" class="modal fade">
-    <div class="modal-dialog my-5">
-      <div class="modal-content">
-        <div class="modal-body">
-          <form class="mt-3 text-center" action="picPhp.php" method="post">
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="greenInputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="greenInputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label class="font-weight-bold mb-0" for="greenInputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control "  name="tel" id="greenInputPhone" placeholder="Введите номер телефон">
-            </div>
-            <div class="form-group d-none">
-              <input type="text" class="form-control " name="checkBox"  value="Зеленый" placeholder="Введите номер телефон">
-            </div>
-            <button type="submit" class="buttonModal text-white">Отправить</button>
+    <div id="myModalgreen" class="modal fade">
+        <div class="modal-dialog my-5">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="mt-3 text-center" action="picPhp.php" method="post">
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="greenInputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="greenInputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label class="font-weight-bold mb-0" for="greenInputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="greenInputPhone"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <div class="form-group d-none">
+                            <input type="text" class="form-control " name="checkBox" value="Зеленый"
+                                   placeholder="Введите номер телефон">
+                        </div>
+                        <button type="submit" class="buttonModal text-white">Отправить</button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
         </div>
-        <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-      </div>
     </div>
-  </div>
 </div>
 <header>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xl-3 col-lg-12 d-flex justify-content-center">
-        <img class="my-auto" width="205" height="60"  src="img/logo.png">
-        <div class="social my-auto d-xl-none">
-          <a href="http://t.me/dogdog_gps"><i class="fab fa-telegram"></i></a>
-          <a href="https://api.whatsapp.com/send?phone=+79153388188"><i class="whatsapp fab fa-whatsapp"></i></a>
-        </div>
-      </div>
-      <div class="col-xl-6 col-lg-12 text-center d-flex justify-content-center align-items-center">
-        <h1 class="mt-1">Доставка по всей Москве и области</h1>
-      </div>
-      <div class="col-xl-3 col-lg-12 d-flex flex-column align-items-center">
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-xl-3 col-lg-12 d-flex justify-content-center p-0">
+                <img class="my-auto mr-3" width="205" height="60" src="img/logo.png">
+                <div class="social my-auto d-xl-none">
+                    <a href="http://t.me/dogdog_gps"><i class="fab fa-telegram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=+79153388188"><i class="whatsapp fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-12 text-center d-flex justify-content-center align-items-center media__content">
+                <h1 class="mt-1">Доставка по всей Москве и области</h1>
+            </div>
+            <div class="col-xl-3 col-lg-12 d-flex flex-column align-items-center media__content">
         <span class="d-block text-center" style="font-family:ArialBold">
           <a class="telephone" href="tel:+7916189 85 81">+7 (916) 189 85 81</a>
           </span>
-        <span class="d-block text-center" style="font-family:ArialBold;font-size: 22px;">
+                <span class="d-block text-center" style="font-family:ArialBold;font-size: 22px;">
           Dogdog.info@mail.ru
           </span>
-        <a href="#" data-toggle="modal" style="font-family:ArialBold" data-target="#myModalCallBack" class="headerButton mx-auto mb-1">
-          ЗАКАЗАТЬ ЗВОНОК
-        </a>
+                <a href="#" data-toggle="modal" style="font-family:ArialBold" data-target="#myModalCallBack"
+                   class="headerButton mx-auto mb-1">
+                    ЗАКАЗАТЬ ЗВОНОК
+                </a>
 
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="container-fluid box d-flex justify-content-center align-items-center flex-column">
-    <div class="row">
-      <div class="col-md-8 col-sm-12 col-xl-12 mx-auto text-center">
-        <h1 class="text-center mt-3 text-uppercase">GPS-ошейник "DogDog" </h1>
-          <span class="fontClass mt-5 h2 text-uppercase">для вашего питомца <span class="h2 colorFullText">всего за 4700 рублей </span></span>
-      </div>
-    </div>
-    <div class="row">
+    <div class="container-fluid box d-xl-flex d-none justify-content-center align-items-center flex-column d-sm-none">
+        <div class="row">
+            <div class="col-md-8 col-sm-12 col-xl-12 mx-auto text-center">
+                <h1 class="text-center mt-3 text-uppercase">GPS-ошейник "DogDog" </h1>
+                <span class="fontClass mt-5 h2 text-uppercase">для вашего питомца <span class="h2 colorFullText">всего за 4700 рублей </span></span>
+            </div>
+        </div>
+        <div class="row">
 
-      <div class="col-xl-5 col-sm-6 col-md-5 mx-auto mt-3 ">
-        <p id="textOtCenter">
-          С GPS-трекером "DogDog" <br>
-          вы всегда будете знать,
-          где находится ваш питомец и будете уверенны в <br>
-            <span class="text-uppercase" style="font-size:20px;letter-spacing: 1px;">безопасности своего  четырех-лапого друга</span>
-        </p>
-      </div>
+            <div class="col-xl-5 col-sm-6 col-md-5 mx-auto mt-3 ">
+                <p id="textOtCenter">
+                    С GPS-трекером "DogDog" <br>
+                    вы всегда будете знать,
+                    где находится ваш питомец и будете уверенны в <br>
+                    <span class="text-uppercase" style="font-size:20px;letter-spacing: 1px;">безопасности своего  четырех-лапого друга</span>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" data-toggle="modal" data-target="#myModal" class="buttonModal mr-lg-4">
+                    Купить сейчас
+                </a>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <a href="#" data-toggle="modal" data-target="#myModal" class="buttonModal mr-lg-4">
-          Купить сейчас
-        </a>
-      </div>
-    </div>
-  </div>
+    <div id="hide-header" class="d-xl-none d-sm-block">
 
+        <div class="row">
+            <div class="col-md-12">
+                <h2 style="font-weight: bold;
+    font-family: 'ArialBold';
+      font-size: 41px;
+      text-align: center;
+      " class="hide-header__heding">Ошейник "DogDog"</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center mb-2">
+                <img src="img/dog.png" width="320" height="280" alt="dog">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <span style="display:block;text-align:center" class="hide-header__content">Для вашего питомца </span>
+                <span style="display:block;text-align:center" class="hide-header__content">Всего за 4700руб</span>
+                <a href="#" data-toggle="modal" data-target="#myModal" class="buttonModal  hide-btn">
+                    Купить сейчас
+                </a>
+            </div>
+        </div>
+
+    </div>
 </header>
+
 <main>
-  <div class="mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="text-center" style="font-family:ArialRegular;font-size:22px;font-weight:600;"><span class="font-weight-bold">GPS-трекер</span> - незаменимый помощник любого владельца собаки, маленькой
-            <br> или крупной, даже если у вас кошка - этот гаджет именно для вас</h3>
+    <div class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center" style="font-family:ArialRegular;font-size:22px;font-weight:600;"><span
+                            class="font-weight-bold">GPS-трекер</span> - незаменимый помощник любого владельца собаки,
+                        маленькой
+                        <br> или крупной, даже если у вас кошка - этот гаджет именно для вас</h3>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div class="py-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-xl-6 align-self-center">
-          <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Маленький и легкий</h3>
-          <p class="my-3 text-center classForP" style="font-family:ArialRegular;font-weight: 600;">
-            Этот GPS-трекер просто крепится на ошейник и Вы с легкостью можете определять местоположение Вашего питомца независимо от его размера. Благодаря своему малому весу он подходит собакам как больших пород так и самых маленьким.
-          </p>
+    <div class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xl-6 align-self-center">
+                    <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Маленький и легкий</h3>
+                    <p class="my-3 text-center classForP" style="font-family:ArialRegular;font-weight: 600;">
+                        Этот GPS-трекер просто крепится на ошейник и Вы с легкостью можете определять местоположение
+                        Вашего питомца независимо от его размера. Благодаря своему малому весу он подходит собакам как
+                        больших пород так и самых маленьким.
+                    </p>
+                </div>
+                <div class="col-md-12 col-xl-6 text-center">
+                    <img class="img-fluid" src="img/GreenGlass.png"></div>
+            </div>
         </div>
-        <div class="col-md-12 col-xl-6 text-center">
-          <img class="img-fluid" src="img/GreenGlass.png"> </div>
-      </div>
+
     </div>
+    <div class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xl-6 order-2 order-md-1 text-center">
+                    <img class="img-fluid" src="img/water.png"></div>
+                <div class="col-md-12 col-xl-6 6order-1 order-md-2 d-flex flex-column justify-content-center">
+                    <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Защищен от влаги и пыли</h3>
+                    <p class="my-3 text-center classForP" style="font-family:ArialRegular;font-weight: 600;">Он оснащен
+                        влагостойким и ударопрочным корпусом,
+                        то означает, что он защищен от грязи, пыли, песка и прямого попадания струй воды и потрясений,
+                        связанных с активными играми. С ним совершенно не страшно, если питомец попадет под проливной
+                        дождь, будет валяться в песке, пыли или заберется в лужу.
+                    </p>
+                    <a class="buttonModal mx-auto mt-3" style="font-family:ArialBold" data-toggle="modal"
+                       data-target="#myModal" href="#">Купить сейчас</a>
 
-  </div>
-  <div class="py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-xl-6 order-2 order-md-1 text-center">
-          <img  class="img-fluid" src="img/water.png"> </div>
-        <div class="col-md-12 col-xl-6 6order-1 order-md-2 d-flex flex-column justify-content-center">
-          <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Защищен от влаги и пыли</h3>
-          <p class="my-3 text-center classForP" style="font-family:ArialRegular;font-weight: 600;">Он оснащен влагостойким и ударопрочным корпусом,
-            то означает, что он защищен от грязи, пыли, песка и прямого попадания струй воды и потрясений, связанных с активными играми. С ним совершенно не страшно, если питомец попадет под проливной дождь, будет валяться в песке, пыли или заберется в лужу.
-          </p>
-          <a class="buttonModal mx-auto mt-3"  style="font-family:ArialBold" data-toggle="modal" data-target="#myModal" href="#">Купить сейчас</a>
-
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 
-<div class="py-4">
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-md-12 col-xl-6 align-self-center">
-          <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Ваш питомец как на ладони</h3>
-          <p class="my-3 text-center classForP" style="font-family:ArialRegular;font-weight: 600;">
-            14% домашних собак теряются.
-            И почти никто из них не возвращается домой. Ошейник "DogDog"меняет эту статистику к лучшему. Устройство покажет текущее GPS-местоположение питомца в вашем смартфоне с точностью до 4-х метров.
+    <div class="py-4">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-12 col-xl-6 align-self-center">
+                    <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Ваш питомец как на
+                        ладони</h3>
+                    <p class="my-3 text-center classForP" style="font-family:ArialRegular;font-weight: 600;">
+                        14% домашних собак теряются.
+                        И почти никто из них не возвращается домой. Ошейник "DogDog"меняет эту статистику к лучшему.
+                        Устройство покажет текущее GPS-местоположение питомца в вашем смартфоне с точностью до 4-х
+                        метров.
 
-          </p>
+                    </p>
+                </div>
+                <div class="col-md-12 col-xl-6 text-center">
+                    <img class="img-fluid" src="img/PhoneWhithDog.png"></div>
+            </div>
         </div>
-        <div class="col-md-12 col-xl-6 text-center">
-          <img class="img-fluid" src="img/PhoneWhithDog.png"> </div>
-      </div>
     </div>
-</div>
-  <div class="py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 col-xl-6 order-2 order-md-1 text-center ">
-          <img class="img-fluid" src="img/bt.png"> </div>
-        <div class="col-md-12 col-xl-6 order-1 order-md-2 d-flex flex-column align-items-center justify-content-center">
-          <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Держит заряд до 72 часов</h3>
-          <p class="my-3 text-center classForP" style="font-family:ArialRegular; font-weight: 600;">
-            Благодаря большой емкости батареи
-            GPS-трекера, вы никогда не упустите своего любимца, даже если он потерялся в городе или густом лесу,
-            А заряжается этот ошейник всего лишь 60 минут.
-          </p>
+    <div class="py-4 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xl-6 order-2 order-md-1 text-center ">
+                    <img class="img-fluid" src="img/bt.png"></div>
+                <div class="col-md-12 col-xl-6 order-1 order-md-2 d-flex flex-column align-items-center justify-content-center">
+                    <h3 class="text-center font-weight-bold" style="font-family:ArialBold">Держит заряд до 72 часов</h3>
+                    <p class="my-3 text-center classForP" style="font-family:ArialRegular; font-weight: 600;">
+                        Благодаря большой емкости батареи
+                        GPS-трекера, вы никогда не упустите своего любимца, даже если он потерялся в городе или густом
+                        лесу,
+                        А заряжается этот ошейник всего лишь 60 минут.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
+
     </div>
+    <div class="glasses d-none d-xl-block">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-12 text-center my-4">
+                    <h2 class="mb-4" style="font-family:ArialBold;font-size: 25px;">
+                        <span style="font-family:ArialBold;font-size: 26px;">GPS-трекер "DogDog" </span><span
+                            style="font-family:ArialRegular;font-size: 25px;">- это<br> не только безопасный гаджет, но и стильный.</span>
+                    </h2>
 
-  </div>
-    <div class="container py-4">
-      <div class="row">
-        <div class="col-md-12 text-center my-4">
-          <h2  class="mb-4" style="font-family:ArialBold;font-size: 25px;" >
-            <span style="font-family:ArialBold;font-size: 26px;">GPS-трекер "DogDog" </span><span  style="font-family:ArialRegular;font-size: 25px;">- это<br> не только безопасный гаджет, но и стильный.</span></h2>
 
-
-
-          <span style="font-family:ArialBold;font-size: 25px;" class="h2 text-center text-dark font-weight-bold ">"DogDog" доступен в пяти цветах- выберите свой цвет:</span>
+                    <span style="font-family:ArialBold;font-size: 25px;"
+                          class="h2 text-center text-dark font-weight-bold ">"DogDog" доступен в пяти цветах- выберите свой цвет:</span>
+                </div>
+            </div>
         </div>
-      </div>
+
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12 col-xl-4 py-5 ">
+                    <a><img src="img/yellow.png" width="225" height="auto" data-toggle="modal"
+                            data-target="#myModalyellow"
+                            id="yellow" height="225" alt="yellow.png"></a>
+                </div>
+                <div class="col-md-6 col-xl-4 py-5 ">
+                    <a><img src="img/green.png" width="225" height="auto" data-toggle="modal"
+                            data-target="#myModalgreen"
+                            id="green" height="225" alt="green.png"></a>
+                </div>
+                <div class="col-md-6 col-xl-4 py-5 ">
+                    <a><img src="img/red.png" width="225" height="auto" data-toggle="modal" data-target="#myModalred"
+                            id="red" height="225" alt="red.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 py-5 " id="white">
+                    <a> <img src="img/white.png" width="225" height="auto" class="mr-xl-5 mx-sm-auto mx-md-auto"
+                             data-toggle="modal" data-target="#myModalwhite" height="225" alt="white.png"></a>
+
+                </div>
+                <div class="col-md-6 py-5 " id="blue">
+                    <a><img src="img/blue.png" width="225" height="auto" class="ml-xl-5" data-toggle="modal"
+                            data-target="#myModalblue" height="225" alt="blue.png"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hide-block__whith-slider d-block d-xl-none">
+
+        <div class="container">
+             <span style="font-family:ArialBold;font-size: 25px;"
+                   class="h2 d-block text-center text-dark font-weight-bold ">"DogDog" доступен в пяти цветах- выберите свой цвет:</span>
+            <div id="carouselExampleIndicators" class="my-4 carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block mx-auto" width="80%" height="auto" src="img/red.png" alt="Первый слайд">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" width="80%" height="auto" src="img/blue.png" alt="Второй слайд">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" width="80%" height="auto" src="img/white.png" alt="Третий слайд">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto" width="80%" height="auto" src="img/yellow.png" alt="Третий слайд">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block mx-auto " width="80%" height="auto" src="img/green.png" alt="Третий слайд">
+                    </div>
+                </div>
+
+            </div>
+            <a data-toggle="modal" data-target="#myModal" id="buttonModal">Купить за 4700 рублей</a>
+        </div>
     </div>
 
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-md-12 col-xl-4 py-5 ">
-        <a ><img src="img/yellow.png" width="225" height="auto" data-toggle="modal" data-target="#myModalyellow" id="yellow" height="225" alt="yellow.png"></a>
-      </div>
-      <div class="col-md-6 col-xl-4 py-5 ">
-        <a ><img src="img/green.png"  width="225" height="auto" data-toggle="modal" data-target="#myModalgreen" id="green" height="225" alt="green.png"></a>
-      </div>
-      <div class="col-md-6 col-xl-4 py-5 ">
-        <a ><img src="img/red.png" width="225" height="auto" data-toggle="modal" data-target="#myModalred" id="red" height="225" alt="red.png"></a>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 py-5 "id="white">
-        <a > <img src="img/white.png" width="225" height="auto" class="mr-xl-5 mx-sm-auto mx-md-auto" data-toggle="modal" data-target="#myModalwhite"  height="225" alt="white.png"></a>
-
-      </div>
-      <div class="col-md-6 py-5 " id="blue">
-        <a><img src="img/blue.png" width="225" height="auto" class="ml-xl-5" data-toggle="modal" data-target="#myModalblue" height="225" alt="blue.png"></a>
-
-      </div>
-    </div>
-  </div>
 </main>
 <footer>
-  <div class="py-5 text-black">
-    <div class="container">
-      <div class="row">
+    <div class="py-5 text-black d-none d-xl-block">
+        <div class="container">
+            <div class="row">
 
-        <div class="col-md-12 col-xl-5  text-center">
-          <p  style="font-family:ArialBold" class="text-center font-weight-bold my-0">Купить трекер <br>
-            для своего питомца <br>
-            сейчас со скидкой</p>
-          <div>
-            <img src="img/cost.png" width="110" alt="cost.png">
-          </div>
-          <span  style="font-family:ArialBold" class="text-center font-weight-bold">
+                <div class="col-md-12 col-xl-5  text-center">
+                    <p style="font-family:ArialBold" class="text-center font-weight-bold my-0">Купить трекер <br>
+                        для своего питомца <br>
+                        сейчас со скидкой</p>
+                    <div>
+                        <img src="img/cost.png" width="110" alt="cost.png">
+                    </div>
+                    <span style="font-family:ArialBold" class="text-center font-weight-bold">
                 за <span class="number">4700</span>рублей
             </span>
-          <form class="mt-3" action="byNow.php" method="post">
-            <div class="form-group">
-              <label  style="font-family:ArialBold;font-size: 23px;" class="font-weight-bold mb-0" for="InputName">Ваше Имя</label>
-              <input type="text" class="form-control " name="name" id="InputName" placeholder="Введите ваше имя">
-            </div>
-            <div class="form-group">
-              <label  style="font-family:ArialBold;font-size: 23px;" class="font-weight-bold mb-0" for="InputPhone">Ваш Телефон</label>
-              <input type="text" class="form-control " name="tel" id="InputPhone" placeholder="Введите номер телефона">
-            </div>
-            <div class="form-group">
-              <label style="font-family:ArialBold;font-size: 23px;" for="exampleFormControlSelect1" class="font-weight-bold mb-0">Выберите цвет</label>
-              <select class="form-control" name="select" id="exampleFormControlSelect1">
-                <option  hidden>Нажмите сюда для выбора</option>
-                <option value="Оранжевый">Оранжевый</option>
-                <option value="Зеленый">Зеленый</option>
-                <option value="Красный">Красный</option>
-                <option value="Белый">Белый</option>
-                <option value="Светло Сний">Светло Сний</option>
-              </select>
-            </div>
-            <button  style="font-family:ArialBold" type="submit" class="buttonModal text-white">Отправить</button>
+                    <form class="mt-3" action="byNow.php" method="post">
+                        <div class="form-group">
+                            <label style="font-family:ArialBold;font-size: 23px;" class="font-weight-bold mb-0"
+                                   for="InputName">Ваше Имя</label>
+                            <input type="text" class="form-control " name="name" id="InputName"
+                                   placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label style="font-family:ArialBold;font-size: 23px;" class="font-weight-bold mb-0"
+                                   for="InputPhone">Ваш Телефон</label>
+                            <input type="text" class="form-control " name="tel" id="InputPhone"
+                                   placeholder="Введите номер телефона">
+                        </div>
+                        <div class="form-group">
+                            <label style="font-family:ArialBold;font-size: 23px;" for="exampleFormControlSelect1"
+                                   class="font-weight-bold mb-0">Выберите цвет</label>
+                            <select class="form-control" name="select" id="exampleFormControlSelect1">
+                                <option hidden>Нажмите сюда для выбора</option>
+                                <option value="Оранжевый">Оранжевый</option>
+                                <option value="Зеленый">Зеленый</option>
+                                <option value="Красный">Красный</option>
+                                <option value="Белый">Белый</option>
+                                <option value="Светло Сний">Светло Сний</option>
+                            </select>
+                        </div>
+                        <button style="font-family:ArialBold" type="submit" class="buttonModal text-white">Отправить
+                        </button>
 
-          </form>
+                    </form>
+                </div>
+                <div class="col-md-12 col-xl-7  d-flex justify-content-center align-items-center ">
+                    <img id="dog" width="630" height="540" src="img/dog.png"></div>
+            </div>
         </div>
-        <div class="col-md-12 col-xl-7  d-flex justify-content-center align-items-center ">
-          <img  id="dog" width="630" height="540" src="img/dog.png"> </div>
-      </div>
     </div>
-  </div>
-  <hr class="m-0">
-  <div class="container-fluid downBlock my-2">
-    <div class="row">
-      <div class="col-xl-3 col-lg-12 d-flex justify-content-center">
-        <img height="60" width="205" src="img/logo.png">
-      </div>
-      <div class="col-xl-6 col-lg-12 text-center my-auto">
-        <h3 class="font-weight-bold" >gps-dogdog.ru</h3>
-      </div>
-      <div class="col-xl-3 col-lg-12 p-2">
+    <hr class="m-0">
+    <div class="container-fluid downBlock my-2">
+        <div class="row">
+            <div class="col-xl-3 col-lg-12 d-flex justify-content-center">
+                <img height="60" width="205" src="img/logo.png">
+            </div>
+            <div class="col-xl-6 col-lg-12 text-center my-auto">
+                <h3 class="font-weight-bold">gps-dogdog.ru</h3>
+            </div>
+            <div class="col-xl-3 col-lg-12 p-2">
         <span class="d-block text-center">
           +7 (916) 189 85 81
           </span>
 
-      </div>
+            </div>
+        </div>
     </div>
-  </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+        integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+        crossorigin="anonymous"></script>
 <script>
     // $('a').click(function (e) {
     //     e.preventDefault();
